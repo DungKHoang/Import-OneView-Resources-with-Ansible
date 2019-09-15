@@ -3,6 +3,7 @@
 import-ov-resource-with-ansible.py is a python script that generates ansible playbooks to configure OneView resources and settings from an Excel file.
 The Excel file provides OV setting values and OV resources values.
 The script generates the following ansible playbooks:
+
     * addresspool.yml
     * firmwarebundle.yml
     * snmpv1.yml
@@ -19,7 +20,7 @@ The script generates the following ansible playbooks:
     * profile.yml (with local storage and network connections)
 
 
-
+    Note: The playbooks work with OneView 4.20
 
 ## Prerequisites
     * Virtual machine running Ubuntu 18.09
