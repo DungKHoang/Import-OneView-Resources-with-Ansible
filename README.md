@@ -58,12 +58,14 @@ In the Ubuntu machine, perform the following operations:
     
 ## Configuration
 Create the following environment variables
+
     * export ANSIBLE_LIBRARY=/home-folder/oneview-ansible/library/
     * export ANSIBLE_MODULE_UTILS=/home-folder/oneview-ansible/library/module_utils/
     * export SYNERGY_AUTO_HOME=home-folder
 
 ## OV configuration Excel file
 In the Excel file, configure the following tabs:
+
     * Version          
         ** I:12     ---> pod mumber used to create prefix for YML files
         ** I:13     ---> site name used to create prefix for YML files
