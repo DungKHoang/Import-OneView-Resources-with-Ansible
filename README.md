@@ -31,7 +31,8 @@ The script generates the following ansible playbooks:
     * oneview-ansible library 
 
 ## Setup
-In the Ubuntu machine, perform the following operations:
+
+
     * sudo apt upgrade
     * sudo apt install python-pip
     * sudo pip install pandas
